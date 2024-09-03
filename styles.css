@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    opacity: 0.9;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.main-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 1;
+}
+
+.header-logo {
+    float: left;
+    color: blue;
+}
+
+.header-logo span {
+    color: #DE222F;
+}
+
+.navbar ul {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+}
+
+.navbar li {
+    margin: 30px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: 0.65s;
+}
+
+a:hover {
+    color: #000;
+}
+.hero-section {
+    background-image: url(assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 80vh;
+    padding-top: 50px;
+    display: flex;
+    opacity: 0.88;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.hero-section h5 {
+    text-align: center;
+    color: rgb(239, 239, 243);
+    justify-content: center;
+    background-color: #046674;
+    padding: 10px;
+    font-size: 1.35rem;
+    opacity: 0.70;
+    border-radius: 4px;
+}
+
+.hero-section p {
+    background-color: #046674;
+    color: white;
+    font-size: 1.35rem;
+    padding: 10px;
+    opacity: 0.75;
+    margin-top: 6px;
+}
+
+.cta-btn button {
+    background-color: #8b2744;
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.cta-btn button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.char-images h3 {
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+    font-style: italic;
+    font-family: poopins, sans-serif;
+}
+
+.char-content {
+    background-color: #6F3331;
+    padding: 1.25rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 600;
+}
+
+.cta-btn {
+    align-items: center;
+}
+
+.btn1 {
+    margin: 1.25rem auto;
+
+}
+
+.cta-btn-img button {
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #6F3331;
+    color: wheat;
+}
+
+.serv-section {
+    background-color: whitesmoke;
+}
+
+.serv-section h1 {
+    text-align: center;
+    padding: 30px 20px 0px;
+    color: #0617cc;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hotel-serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: white;
+    padding: 48px;
+    transition: all 0.25s;
+    border-radius: 6px;
+}
+
+.hotel-serv .fa-solid {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hotel-serv h4 {
+    padding-bottom: 1rem;
+}
+
+.hotel-serv:hover {
+    background-color: #70A9FF;
+    transform: scale(1.1);
+}
+
+
+/* explore more sect style here */
+
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F9FF;
+    font-family: poppins, sans-serif;
+    overflow: hidden;
+}
+
+.section-header h1 {
+    font-style: italic;
+    transition: 0.35s ease;
+    border-bottom: 2px solid rgb(238, 33, 33);
+}
+
+.sect-content {
+    padding: 2rem;
+    font-style: italic;
+}
+
+.article-wrapper {
+    font-family: poppins, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    overflow: hidden;
+    padding: 3rem;
+}
+
+.art-content img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    transition: all 0.35s ease-in;
+
+}
+
+.art-content-wrapper {
+    background-color: #991c3f;
+    margin-top: 0;
+}
+
+.art-content-wrapper h1 {
+    padding: 0.55rem;
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.btn-cta {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn-cta a {
+    background-color: #383C66;
+    text-decoration: none;
+    padding: 0.55rem;
+    border-radius: 8px;
+    color: white;
+    transition: 0.35s ease;
+}
+
+.btn-cta a:hover {
+    background-color: #046674;
+    color: whitesmoke;
+}
+
+.art-content-wrapper p {
+    padding: 0.75rem;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: #0A0F43;
+    height: 360px;
+    padding: 1.25rem;
+    color: white;
+    overflow: hidden;
+}
+
+.contact-info h5 {
+    font-size: 2rem;
+    font-family: poppins, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .map {
+    margin: 1.25rem auto;
+    text-align: center;
+}
+
+.map a i {
+    font-size: 1.25rem;
+    padding: 0.8rem;
+    transition: 0.45s;
+}
+
+.map a {
+    margin: 1.6rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.map a:hover {
+    color: #70A9FF;
+} 
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .media-icon {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.media-icon h1 {
+    font-style: italic;
+}
+
+.media-links {
+    background-color: lightgrey;
+    padding: 0.8rem;
+    border-radius: 6px;
+}
+
+.media-links a {
+    margin: 1.25rem;
+    transition: all 0.45s;
+    margin: 1.25rem;
+}
+
+.footer {
+    background: #000000;
+    overflow: hidden;
+}
+
+.sect-footer {
+    padding: 2rem;
+    height: 50px;
+    color: white;
+}
+
+.sect-footer p {
+    text-align: center;
+    font-style: italic;
+}
