@@ -227,6 +227,7 @@ a:hover {
 
 .art-content img {
     background-size: cover;
+    display: block;
     background-repeat: no-repeat;
     background-position: center;
     width: 400px;
